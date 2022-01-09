@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#popcat {
+    width: 1500px;
+    height: 740px;
+}
+
+@media only screen and (max-width: 1080px) {
+    #popcat {
+        width: auto;
+    }
+}
